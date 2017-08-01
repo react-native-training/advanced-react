@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  transition: margin 1s, opacity .45s;
+  background-color: red;
+  cursor: pointer;
+}
+
+.box-animated {
+  margin-left: 100px;
+}
+
