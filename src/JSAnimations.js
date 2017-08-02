@@ -1,5 +1,4 @@
 import React from 'react';
-import { css } from 'glamor';
 
 /* Exercise:
 *  Create a form that expands when focused.
@@ -9,20 +8,20 @@ import { css } from 'glamor';
 
 export default class GlamorAnimations extends React.PureComponent {
   state = {
-    animated: false,
+    scaled: false,
   }
   animate = () => {
     this.setState((state) => ({
-      animated: !state.animated,
+      scaled: !state.scaled,
     }))
   }
   render() {
     return (
       <div>
-        <p>GlamorAnimations</p>
+        <p>JavaScript Animations</p>
         <button onClick={this.animate}>Animate</button>
         <div
-          {...css([styles.box, this.state.animated && styles.boxAnimated])}
+          style={Object.assign({}, styles.box, this.state.scaled && styles.scaled)}
         />
       </div>
     )
@@ -37,7 +36,7 @@ const styles = {
     backgroundColor: 'red',
     transition: 'all .5s linear'
   },
-  boxAnimated: {
+  scaled: {
     transform: 'scale(.2)',
   },
 }
