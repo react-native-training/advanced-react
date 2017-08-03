@@ -13,6 +13,9 @@ const Header = () => (
       <Link to='/animations' style={styles.href}>
         <p {...css(styles.link)}>Animations</p>
       </Link>
+      <Link to='/primitives' style={styles.href}>
+        <p {...css(styles.link)}>React Primitives</p>
+      </Link>
       <Link to='/context' style={styles.href}>
         <p {...css(styles.link)}>Context</p>
       </Link>
@@ -34,7 +37,7 @@ const styles = {
     margin: 0,
     paddingRight: 20,
     textDecoration: 'none',
-    color: 'black',
+    color: 'rgba(0, 0, 0, .6)',
     ':hover': {
       color: 'white',
     }
@@ -51,6 +54,7 @@ const styles = {
   },
   linkContainer: {
     display: 'flex',
+    alignItems: 'center'
   },
   header: {
     padding: 20,

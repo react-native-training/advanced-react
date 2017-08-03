@@ -25,7 +25,6 @@ export default class Animations extends React.PureComponent {
         </div>
         <p style={styles.title}>Animations</p>
         <div style={styles.container}>
-          <Route exact path='/' component={CSSAnimations} />
           <Route exact path='/animations' component={CSSAnimations} />
           <Route path='/animations/css' component={CSSAnimations} />
           <Route path='/animations/js' component={JSAnimations} />

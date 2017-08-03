@@ -3,6 +3,7 @@ import Header from './Header';
 import Context from './Context';
 import Recompose from './Recompose';
 import Animations from './Animations';
+import Primitives from './Primitives';
 import HOC from './HOC';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ class App extends Component {
               <Route path='/animations' component={Animations} />
               <Route path='/recompose' component={Recompose} />
               <Route path='/context' component={Context} />
+              <Route path='/primitives' component={Primitives} />
               <Route path='/hoc' component={HOC} />
             </Switch>
           </div>
