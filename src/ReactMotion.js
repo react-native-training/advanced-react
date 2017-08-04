@@ -10,12 +10,12 @@ import { Motion, spring } from 'react-motion';
 export default class ReactMotion extends React.PureComponent {
   state = {
     x: 0,
-    y: 20,
+    y: 10,
   }
   animateMargin = () => {
     this.setState((state) => ({
       x: state.x === 0 ? 200 : 0,
-      y: state.y === 20 ? 200 : 20,
+      y: state.y === 10 ? 200 : 10,
     }))
   }
   render() {
