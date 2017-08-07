@@ -4,8 +4,8 @@ import CSSAnimations from './CSSAnimations';
 import JSAnimations from './JSAnimations';
 import ReactMotion from './ReactMotion';
 import Animated from './Animated';
-import SubNav from './SubNav';
-import Link from './Link';
+import SubNav from '../../components/SubNav';
+import Link from '../../components/Link';
 
 export default class Animations extends React.PureComponent {
   render() {

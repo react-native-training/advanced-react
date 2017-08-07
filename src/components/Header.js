@@ -22,8 +22,8 @@ const Header = () => (
       <Link to='/hoc' style={styles.href}>
         <p {...css(styles.link)}>HOC</p>
       </Link>
-      <Link to='/recompose' style={styles.href}>
-        <p {...css(styles.link)}>Recompose</p>
+      <Link to='/childprops' style={styles.href}>
+        <p {...css(styles.link)}>Child Props</p>
       </Link>
     </div>
   </div>

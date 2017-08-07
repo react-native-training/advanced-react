@@ -10,7 +10,7 @@ const NavLink = ({ to, title }) => (
 const styles = {
   link: {
     textDecoration: 'none',
-    marginRight: 20,
+    marginRight: 24,
     color: '#666'
   },
 }
