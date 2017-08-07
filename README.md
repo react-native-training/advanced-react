@@ -27,8 +27,11 @@ npm start
 ```
 
 ### Dependencies used in this project:
-React Router
-React Motion
-Animated
-Glamor
-Recompose
+React Router Dom   
+React Motion   
+Animated   
+Glamor   
+Recompose   
+PropTypes   
+React Primitives   
+
