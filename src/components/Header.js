@@ -10,20 +10,20 @@ const Header = () => (
       </Link>
     </div>
     <div style={styles.linkContainer}>
+      <Link to='/context' style={styles.href}>
+        <p {...css(styles.link)}>Context</p>
+      </Link>
+      <Link to='/childprops' style={styles.href}>
+        <p {...css(styles.link)}>Child Props</p>
+      </Link>
+      <Link to='/hoc' style={styles.href}>
+        <p {...css(styles.link)}>HOC</p>
+      </Link>
       <Link to='/animations' style={styles.href}>
         <p {...css(styles.link)}>Animations</p>
       </Link>
       <Link to='/primitives' style={styles.href}>
         <p {...css(styles.link)}>React Primitives</p>
-      </Link>
-      <Link to='/context' style={styles.href}>
-        <p {...css(styles.link)}>Context</p>
-      </Link>
-      <Link to='/hoc' style={styles.href}>
-        <p {...css(styles.link)}>HOC</p>
-      </Link>
-      <Link to='/childprops' style={styles.href}>
-        <p {...css(styles.link)}>Child Props</p>
       </Link>
     </div>
   </div>
