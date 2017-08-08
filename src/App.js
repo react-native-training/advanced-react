@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Context from './routes/Context/Context';
-import Recompose from './routes/Recompose/Recompose';
 import Animations from './routes/Animations/Animations';
 import Primitives from './routes/Primitives/Primitives';
 import HOC from './routes/HOC/HOC';
@@ -18,7 +17,6 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Animations} />
               <Route path='/animations' component={Animations} />
-              <Route path='/recompose' component={Recompose} />
               <Route path='/context' component={Context} />
               <Route path='/primitives' component={Primitives} />
               <Route path='/hoc' component={HOC} />
