@@ -31,7 +31,6 @@ React Router Dom
 React Motion   
 Animated   
 Glamor   
-Recompose   
 PropTypes   
 React Primitives   
 
