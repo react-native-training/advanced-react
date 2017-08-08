@@ -2,9 +2,11 @@ import React from 'react';
 import { Motion, spring } from 'react-motion';
 
 /* Exercise:
-*  
-*  
-*  
+*  Create a button that expands and changes its
+*  background color based on the values in a separate
+*  input in the component. For exaple, if the input has
+*  less than 4 values, then the button is disabled, if it has
+*  4 or more values, then it is enabled and animated.
 */
 
 export default class ReactMotion extends React.PureComponent {
@@ -47,7 +49,6 @@ const styles = {
     width: 100,
     height: 100,
     backgroundColor: 'red',
-    transition: 'all .5s linear',
     transform: 'rotate(0deg)',
   },
 }

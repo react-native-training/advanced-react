@@ -1,8 +1,9 @@
 import React from 'react';
 
 /* Exercise:
-*  Create a div that changes opacity when hovered over.
-*  Hint: use refs + an event listener (this.someRef.addEventListener)
+*  Create an animated input that expands when focused and
+*  contracts when unfocused.
+*  Hint: use onmouseenter and onmouseleave
 */
 
 export default class CSSAnimations extends React.PureComponent {
@@ -18,7 +19,9 @@ export default class CSSAnimations extends React.PureComponent {
     return (
       <div>
         <p>CSSAnimations</p>
-        <button onClick={this.animate}>Animate</button>
+        <button
+          onClick={this.animate}
+        >Animate</button>
         <div className={['box', this.state.animated && 'box-animated'].join(' ')} />
       </div>
     )
