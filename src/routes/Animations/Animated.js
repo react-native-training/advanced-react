@@ -3,7 +3,7 @@ import React from 'react';
 import Animated from 'animated/lib/targets/react-dom';
 
 /* Exercise:
-*  Use interpolation to simulate an animated message that will show up after a
+*  Use interpolation to create an animated message that will show up after a
 *  button is clicked. For example, maybe a button submits a form, and we can
 *  show an animated message confirming the form input was submitted.
 */
